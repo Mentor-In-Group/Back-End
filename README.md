@@ -13,7 +13,7 @@ http://localhost:3000
   * name as string
   * email as string
   * password as string
-* Request Body Request 
+* API Body Request 
   `{
     "name": "",
     "email": "",
@@ -30,7 +30,7 @@ http://localhost:3000
 * Request Body
   * email as string
   * password as string
-* Request Body Request 
+* API Body Request 
   `{
     "email": "",
     "password": ""
