@@ -6,13 +6,13 @@ http://localhost:3000
 
 # Register 
 * URL 
-  ** /users
+  * /users
 * Method
-  ** POST
+  * POST
 * Request Body
-  ** name as string
-  ** email as string
-  ** password as string
+  * name as string
+  * email as string
+  * password as string
 * Request Body Request 
   `{
     "name": "",
@@ -24,12 +24,12 @@ http://localhost:3000
 
 # Login 
 * URL 
-  ** /login
+  * /login
 * Method
-  ** POST
+  * POST
 * Request Body
-  ** email as string
-  ** password as string
+  * email as string
+  * password as string
 * Request Body Request 
   `{
     "email": "",
