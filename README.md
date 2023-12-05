@@ -1,6 +1,11 @@
 # Mentor-In
 API Untuk Antarmuka Mentor-In
 
-# ABC
+# ENDPOINT
+http://localhost:3000
+
+#Register 
+-URL 
+/users
 
 
