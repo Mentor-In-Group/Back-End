@@ -19,7 +19,6 @@ http://localhost:3000
     "email": "",
     "password": "",
     "confPassword": ""
-
 }`
 
 # Login 
