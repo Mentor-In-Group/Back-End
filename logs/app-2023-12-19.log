@@ -1,0 +1,115 @@
+[LOGGER] 2023-12-19 02:28:08.737 PM error : uncaughtException: (conn=64, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:28:08.746 PM error : uncaughtException: (conn=62, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:28:08.757 PM error : uncaughtException: (conn=63, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:28:08.769 PM error : uncaughtException: (conn=61, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:29:37.699 PM error : uncaughtException: (conn=103, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:29:37.708 PM error : uncaughtException: (conn=101, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:29:37.719 PM error : uncaughtException: (conn=102, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:29:37.728 PM error : uncaughtException: (conn=104, no: 1005, SQLState: HY000) Can't create table `mentorin`.`booking` (errno: 150 "Foreign key constraint is incorrectly formed")
+sql: CREATE TABLE IF NOT EXISTS `booking` (`booking_id` CHAR(36) BINARY NOT NULL , `schedule_id` INTEGER, `date` VARCHAR(255), `is_booking` TINYINT(1), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`booking_id`), FOREIGN KEY (`boo... - parameters:[]
+Error
+    at Query.run (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\query.js:53:25)
+    at E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.createTable (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:98:12)
+    at async Booking.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:942:7)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-19 02:49:18.250 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:49:29.492 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:50:06.304 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:50:41.845 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:50:55.981 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:51:14.072 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:58:46.670 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 02:58:48.089 PM error : controllers/mentorController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 03:10:10.483 PM error : controllers/mentorController.js:setMentor - Expected a string but received a Object
+[LOGGER] 2023-12-19 03:10:12.042 PM error : controllers/mentorController.js:setMentor - Expected a string but received a Object
+[LOGGER] 2023-12-19 03:10:22.269 PM error : controllers/mentorController.js:setMentor - Expected a string but received a Object
+[LOGGER] 2023-12-19 03:10:23.305 PM error : controllers/mentorController.js:setMentor - Expected a string but received a Object
+[LOGGER] 2023-12-19 03:10:24.169 PM error : controllers/mentorController.js:setMentor - Expected a string but received a Object
+[LOGGER] 2023-12-19 03:12:57.660 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:14:05.778 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:37:00.193 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:37:00.946 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:37:01.264 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:37:18.498 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:37:27.278 PM error : controllers/mentorController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:45:26.307 PM error : controllers/contactController.js:setMentor - contact is not defined
+[LOGGER] 2023-12-19 03:45:28.685 PM error : controllers/contactController.js:setMentor - contact is not defined
+[LOGGER] 2023-12-19 03:46:13.173 PM error : controllers/contactController.js:setMentor - schedule.map is not a function
+[LOGGER] 2023-12-19 03:56:16.339 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 03:56:17.442 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 03:56:18.088 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:01:04.330 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:01:28.740 PM error : controllers/contactController.js:setMentor - Expected a string but received a number
+[LOGGER] 2023-12-19 04:01:29.523 PM error : controllers/contactController.js:setMentor - Expected a string but received a number
+[LOGGER] 2023-12-19 04:01:34.558 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:01:56.381 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:03.605 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:04.621 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:05.027 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:05.782 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:07.238 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:02:07.969 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:03:12.423 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:03:17.489 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:03:18.414 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:04:21.437 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:04:22.197 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function
+[LOGGER] 2023-12-19 04:04:22.669 PM error : controllers/contactController.js:setMentor - this.serDataValue is not a function

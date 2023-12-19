@@ -1,0 +1,134 @@
+[LOGGER] 2023-12-14 06:29:42.173 AM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-14 09:38:51.963 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:40:55.717 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:41:43.980 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:41:45.025 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:42:17.680 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:43:11.763 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:43:13.075 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 09:43:13.881 AM error : uncaughtException: validator.isPassword is not a function
+TypeError: validator.isPassword is not a function
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:28:71
+    at Array.forEach (<anonymous>)
+    at dd (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:15:30)
+    at new Promise (<anonymous>)
+    at file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:13:28
+    at Array.forEach (<anonymous>)
+    at message (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:9:30)
+    at new Promise (<anonymous>)
+    at dataValid (file:///E:/Project/JS/Mentorin-Backend/src/validation/dataValidation.js:8:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[LOGGER] 2023-12-14 10:30:38.251 AM error : uncaughtException: setActivateUser is not defined
+ReferenceError: setActivateUser is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/routes/userRouter.js:6:39
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-14 10:42:39.505 AM error : uncaughtException: getUser is not defined
+ReferenceError: getUser is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/routes/userRouter.js:6:26
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-14 11:45:55.295 AM error : uncaughtException: connect ECONNREFUSED 127.0.0.1:3306
+SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+    at ConnectionManager.connect (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\mariadb\connection-manager.js:87:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:222:24)
+    at async E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:174:32
+    at async ConnectionManager.getConnection (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:197:7)
+    at async E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:305:26
+    at async MySQLQueryInterface.tableExists (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:102:17)
+    at async User.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\model.js:939:21)
+    at async Sequelize.sync (E:\Project\JS\Mentorin-Backend\node_modules\sequelize\lib\sequelize.js:377:9)
+[LOGGER] 2023-12-14 11:46:27.146 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:46:34.043 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:47:23.385 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:47:24.855 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:47:25.442 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:48:48.020 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:48:48.754 AM error : controllers/userController.js:setLogin - error is not defined
+[LOGGER] 2023-12-14 11:48:49.922 AM error : controllers/userController.js:setLogin - error is not defined

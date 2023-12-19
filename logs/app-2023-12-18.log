@@ -1,0 +1,43 @@
+[LOGGER] 2023-12-18 01:48:45.606 PM error : uncaughtException: mentorRouter is not defined
+ReferenceError: mentorRouter is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/routes/mentorRoute.js:18:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-18 01:49:42.584 PM error : uncaughtException: mentorRouter is not defined
+ReferenceError: mentorRouter is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/routes/mentorRouter.js:18:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-18 01:50:28.035 PM error : uncaughtException: scheduleRouter is not defined
+ReferenceError: scheduleRouter is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/routes/scheduleRouter.js:18:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-18 05:15:00.507 PM error : controllers/userController.js:setUser - notNull Violation: User.study cannot be null
+[LOGGER] 2023-12-18 05:44:31.002 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:44:35.061 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:46:30.602 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:48:00.796 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:48:01.760 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:48:03.449 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:49:46.855 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 05:53:28.982 PM error : controllers/userController.js:setUser - Operation timeout
+[LOGGER] 2023-12-18 05:54:35.394 PM error : controllers/userController.js:setUser - Operation timeout
+[LOGGER] 2023-12-18 05:57:03.481 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:09.960 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:10.897 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:11.326 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:11.701 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:12.040 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:00:12.298 PM error : controllers/userController.js:setLogin - Cannot read properties of undefined (reading 'env')
+[LOGGER] 2023-12-18 06:03:49.596 PM error : controllers/userController.js:setLogin - secretOrPrivateKey must have a value
+[LOGGER] 2023-12-18 06:03:52.283 PM error : controllers/userController.js:setLogin - secretOrPrivateKey must have a value
+[LOGGER] 2023-12-18 06:31:14.605 PM error : uncaughtException: Mentor is not defined
+ReferenceError: Mentor is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/models/scheduleModel.js:38:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-18 06:31:16.338 PM error : uncaughtException: Mentors is not defined
+ReferenceError: Mentors is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/models/scheduleModel.js:38:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
+[LOGGER] 2023-12-18 06:31:18.841 PM error : uncaughtException: Mentors is not defined
+ReferenceError: Mentors is not defined
+    at file:///E:/Project/JS/Mentorin-Backend/src/models/scheduleModel.js:38:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25)
