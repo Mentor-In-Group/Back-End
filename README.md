@@ -96,6 +96,7 @@
     "errors": [],
     "message": "Schedule retrieved successfully",
     "data": [
+    
         {
             "scheduleId": "8add91ab-a2fe-4afc-83f6-8db8dae2a359",
             "codeClass": "AS-01",
