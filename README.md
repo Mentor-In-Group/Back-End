@@ -28,3 +28,26 @@
     }
   }
     ```
+
+  # Login
+- URL
+    - /users/login
+- Method
+    - POST
+- Request Body
+    - email as string, harus unique
+    - password as string, harus 8 karakter, berisi 1 uppercase, lowercase, angka dan simbol
+- Response
+    ```
+    {
+    "errors": [],
+    "message": "Login successfully",
+    "data": {
+        "userId": "124a0155-cc30-45a4-945a-76b381c08bbe",
+        "name": "Moh. Yusuf",
+        "email": "y123@gmail.com"
+    },
+    "acessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjRhMDE1NS1jYzMwLTQ1YTQtOTQ1YS03NmIzODFjMDhiYmUiLCJuYW1lIjoiTW9oLiBZdXN1ZiIsImVtYWlsIjoieTEyM0BnbWFpbC5jb20iLCJpYXQiOjE3MDMwOTgyNzgsImV4cCI6MTcwMzE4NDY3OH0.pf3KXwLWjgbqzLOmyE27ETwLJYIdLuc4ddHtutdB8gQ",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjRhMDE1NS1jYzMwLTQ1YTQtOTQ1YS03NmIzODFjMDhiYmUiLCJuYW1lIjoiTW9oLiBZdXN1ZiIsImVtYWlsIjoieTEyM0BnbWFpbC5jb20iLCJpYXQiOjE3MDMwOTgyNzgsImV4cCI6MTcwMzE4NDY3OH0.pqsXhyF3-1VwqXXTs7YmFaoO1lsoNRigkC8yPN7V2SA"
+}
+    ```
