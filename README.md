@@ -54,7 +54,7 @@
   }
     ```
 
-  # Daftar Schedule
+# Daftar Schedule
 - URL
     - /schedules/scheduling
 - Method
@@ -82,7 +82,7 @@
     ```
 
 
-  # List Schedule
+# List Schedule
 - URL
     - /schedules
 - Method
