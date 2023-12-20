@@ -2,7 +2,7 @@
 > API KHUSUS UNTUK MENTORIN 
 
 # ENDPOINT
-> https://mentorin.et.r.appspot.com/mentorin/
+> https://mentorin.et.r.appspot.com/mentorin
 
 # Register
 - URL
