@@ -59,6 +59,12 @@
     - /schedules/scheduling
 - Method
     - POST
+- Request Body
+    - nameMentor as string 
+    - codeClass as string
+    - start_at as string
+    - end_at as string
+    - date as string 
 - Response
     ```
     {
