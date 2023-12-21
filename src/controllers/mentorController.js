@@ -58,7 +58,6 @@ const setMentor = async (req, res, next) => {
                 rating: newMentor.rating,
             },
         });
-        //  }
     } catch (error) {
         await t.rollback();
         next(new Error("controllers/mentorController.js:setMentor - " + error.message));
