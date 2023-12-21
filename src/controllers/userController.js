@@ -18,13 +18,14 @@ const setUser = async (req, res, next) => {
         name: "required",
         email: "required,isEmail",
         study: "required",
+        role: "required",
         password: "required,isStrongPassword",
         confirmPassword: "required",
     };
     try {
         // const user = req.body;
         const user = await dataValid(valid, req.body);
-        // cek password
+        // cek password User
         if (user.data.password !== user.data.confirmPassword) {
             user.message.push("Password does not match");
         }
@@ -71,41 +72,42 @@ const setUser = async (req, res, next) => {
         const newUser = await User.create(
             {
                 ...user.data,
-                expireTime: new Date(),
+             //   expireTime: new Date(),
             },
             {
                 transaction: t,
             }
         );
-        const result = await sendMail(newUser.email, newUser.userId);
-        if (!result) {
-            await t.rollback();
-            return res.status(500).json({
-                errors: ["Send email failed"],
-                message: "Register Fail",
-                data: null,
-            });
-        } else {
+        //const result = await sendMail(newUser.email, newUser.userId);
+        //if (!result) {
+           // await t.rollback();
+           // return res.status(500).json({
+             //   errors: ["Send email failed"],
+               // message: "Register Fail",
+               // data: null,
+           // });
+       // } else { 
             await t.commit();
             res.status(201).json({
                 errors: null,
-                message: "User created, please check your email",
+                message: "User created",
                 data: {
                     userId: newUser.userId,
                     name: newUser.name,
                     email: newUser.email,
                     study: newUser.study,
-                    expireTime: newUser.expireTime.toString(),
+                    role: newUser.role,
+                 //   expireTime: newUser.expireTime.toString(),
                 },
             });
-        }
+      // }
     } catch (error) {
         await t.rollback();
         next(new Error("controllers/userController.js:setUser - " + error.message));
     }
 };
 
-const setActivateUser = async (req, res, next) => {
+/* const setActivateUser = async (req, res, next) => {
     try {
         const user_id = req.params.id;
         const user = await User.findOne({
@@ -143,7 +145,7 @@ const setActivateUser = async (req, res, next) => {
             )
         );
     }
-};
+}; */
 const getUser = async (req, res, next) => {
     try {
         const user = await User.findAll();
@@ -175,7 +177,7 @@ const setLogin = async (req, res, next) => {
         const userExists = await User.findOne({
             where: {
                 email: data.email,
-                isActive: true,
+               // isActive: true,
             },
         });
         if (!userExists) {
@@ -203,7 +205,7 @@ const setLogin = async (req, res, next) => {
         } else {
             return res.status(400).json({
                 errors: ["Wrong password"],
-                message: "Login Field",
+                message: "Login Failed",
                 data: data,
             });
         }
@@ -424,7 +426,7 @@ const forgotPassword = async (req, res, next) => {
 
 export {
     setUser,
-    setActivateUser,
+   // setActivateUser,
     getUser,
     setLogin,
     setRefreshToken,
