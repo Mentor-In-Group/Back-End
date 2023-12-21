@@ -13,10 +13,6 @@ const setSchedule = async (req, res, next) => {
     try {
         // const user = req.body;
         const schedule = await dataValid(valid, req.body);
-        // cek password
-        /* if (schedule.data.password !== schedule.data.confirmPassword) {
-             schedule.message.push("Password does not match");
-         } */
         if (schedule.message.length > 0) {
             return res.status(400).json({
                 errors: schedule.message,
@@ -35,16 +31,6 @@ const setSchedule = async (req, res, next) => {
                 message: "Register Fail",
                 data: null,
             });
-            /* } else if (
-                 scheduleExists.length > 0 &&
-                 !scheduleExists[0].isActive &&
-                 Date.parse(scheduleExists[0].expireTime) > new Date()
-             ) { 
-                 return res.status(400).json({
-                     errors: ["Email already registered, please check your email"],
-                     message: "Register Fail",
-                     data: null,
-                 }); */
         } else {
             Schedule.destroy(
                 {
@@ -66,15 +52,6 @@ const setSchedule = async (req, res, next) => {
                 transaction: t,
             }
         );
-        //const result = await sendMail(newUser.email, newUser.userId);
-        // if (!result) {
-        //   await t.rollback();
-        //   return res.status(500).json({
-        //      errors: ["Send email failed"],
-        //       message: "Register Fail",
-        //      data: null,
-        //  });
-        //   } else {
         await t.commit();
         res.status(201).json({
             errors: null,
@@ -87,7 +64,6 @@ const setSchedule = async (req, res, next) => {
                 date: newSchedule.date,
             },
         });
-        //  }
     } catch (error) {
         await t.rollback();
         next(new Error("controllers/scheduleController.js:setSchedule - " + error.message));
