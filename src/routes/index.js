@@ -10,10 +10,6 @@ route.use("/mentorin", scheduleRouter);
 route.use("/mentorin", mentorRouter);
 route.use("*", errorrHandling);
 route.use("*", (req, res) => {
-    res.status(404).json({
-        errors: ["Page Not Found"],
-        message: "Internal Server Error",
-        data: null,
-    });
+    res.status(200).send('ENDPOINT UNTUK MENTORIN BACKEND');
 });
 export default route;
