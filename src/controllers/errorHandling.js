@@ -17,7 +17,7 @@ const authenticate = (req, res, next) => {
     if (!token) {
         return res.status(401).json({
             errors: ["Token not found"],
-            message: "Verify Field",
+            message: "Verify Fail",
             data: null,
         });
     }
@@ -25,7 +25,7 @@ const authenticate = (req, res, next) => {
     if (!user) {
         return res.status(401).json({
             errors: ["Invalid token"],
-            message: "Verify Field",
+            message: "Verify Fail",
             data: null,
         });
     }
