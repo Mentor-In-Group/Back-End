@@ -122,7 +122,7 @@ const setUser = async (req, res, next) => {
         if (!user) {
             return res.status(404).json({
                 errors: ["User not found or expired"],
-                message: "Activate User Field",
+                message: "Activate User Fail",
                 data: null,
             });
         } else {
