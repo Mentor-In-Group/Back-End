@@ -7,5 +7,5 @@ const PORT = process.env.PORT || 8080;
 app.use(appMiddleware);
 
 app.listen(PORT, () => {
-    console.log(`Server berjalan pada Port http://https://mentorin.et.r.appspot.com:${PORT}`);
+    console.log(`Server berjalan pada Port https://mentorin.et.r.appspot.com:${PORT}`);
 });
