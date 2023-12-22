@@ -223,7 +223,7 @@ const setRefreshToken = async (req, res, next) => {
         if (!token) {
             return res.status(401).json({
                 errors: ["Refresh token not found"],
-                message: "Refresh Field",
+                message: "Refresh Fail",
                 data: null,
             });
         }
@@ -231,7 +231,7 @@ const setRefreshToken = async (req, res, next) => {
         if (!verify) {
             return res.status(401).json({
                 errors: ["Invalid refresh token"],
-                message: "Refresh Field",
+                message: "Refresh Fail",
                 data: null,
             });
         }
@@ -245,7 +245,7 @@ const setRefreshToken = async (req, res, next) => {
         if (!user) {
             return res.status(404).json({
                 errors: ["User not found"],
-                message: "Refresh Field",
+                message: "Refresh Fail",
                 data: null,
             });
         } else {
