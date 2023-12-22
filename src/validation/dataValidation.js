@@ -8,7 +8,6 @@ const dataValid = async (valid, dt) => {
     const message = await new Promise((resolve, reject) => {
         Object.entries(valid).forEach(async (item) => {
             const [key, value] = item;
-            //if (isExists(valid[key])) {
             const validate = valid[key].split(",");
             dd = await new Promise((resolve, reject) => {
                 let msg = [];
@@ -40,7 +39,6 @@ const dataValid = async (valid, dt) => {
                 });
                 resolve(msg);
             });
-            // }
             pesan.push(...dd);
         });
         resolve(pesan);
